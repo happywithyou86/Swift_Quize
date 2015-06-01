@@ -8,11 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		4F4DBC941A3052AE00E16F5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DBC931A3052AE00E16F5A /* AppDelegate.swift */; };
-		4F4DBC961A3052AE00E16F5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DBC951A3052AE00E16F5A /* ViewController.swift */; };
+		4F4DBC961A3052AE00E16F5A /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DBC951A3052AE00E16F5A /* CategoryViewController.swift */; };
 		4F4DBC991A3052AE00E16F5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F4DBC971A3052AE00E16F5A /* Main.storyboard */; };
 		4F4DBC9B1A3052AE00E16F5A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F4DBC9A1A3052AE00E16F5A /* Images.xcassets */; };
 		4F4DBC9E1A3052AE00E16F5A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F4DBC9C1A3052AE00E16F5A /* LaunchScreen.xib */; };
 		4F4DBCAA1A3052AE00E16F5A /* TabBar_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DBCA91A3052AE00E16F5A /* TabBar_SwiftTests.swift */; };
+		4F4DBCB61A305EA200E16F5A /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DBCB51A305EA200E16F5A /* SettingViewController.swift */; };
+		4F4DBCB81A305EB600E16F5A /* HighscoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DBCB71A305EB600E16F5A /* HighscoreViewController.swift */; };
+		4F4DBCBA1A305EC200E16F5A /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DBCB91A305EC200E16F5A /* AboutViewController.swift */; };
+		4F4DBCBE1A30639C00E16F5A /* QuestionVeiwController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DBCBD1A30639C00E16F5A /* QuestionVeiwController.swift */; };
+		982651491A33534A00F64B3A /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 982651481A33534A00F64B3A /* libsqlite3.dylib */; };
+		982651801A33618200F64B3A /* SwiftData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9826517F1A33618200F64B3A /* SwiftData.swift */; };
+		A29BD96E1A31173600F81572 /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = A29BD96A1A31173600F81572 /* correct.png */; };
+		A29BD96F1A31173600F81572 /* incorrect_A.png in Resources */ = {isa = PBXBuildFile; fileRef = A29BD96B1A31173600F81572 /* incorrect_A.png */; };
+		A29BD9701A31173600F81572 /* incorrect_B.png in Resources */ = {isa = PBXBuildFile; fileRef = A29BD96C1A31173600F81572 /* incorrect_B.png */; };
+		A29BD9711A31173600F81572 /* incorrect_C.png in Resources */ = {isa = PBXBuildFile; fileRef = A29BD96D1A31173600F81572 /* incorrect_C.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,17 +35,40 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		9826517D1A3357ED00F64B3A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		4F4DBC8E1A3052AE00E16F5A /* TabBar-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TabBar-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F4DBC921A3052AE00E16F5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F4DBC931A3052AE00E16F5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4F4DBC951A3052AE00E16F5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4F4DBC951A3052AE00E16F5A /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		4F4DBC981A3052AE00E16F5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F4DBC9A1A3052AE00E16F5A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4F4DBC9D1A3052AE00E16F5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4F4DBCA31A3052AE00E16F5A /* TabBar-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TabBar-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F4DBCA81A3052AE00E16F5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F4DBCA91A3052AE00E16F5A /* TabBar_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar_SwiftTests.swift; sourceTree = "<group>"; };
+		4F4DBCB51A305EA200E16F5A /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		4F4DBCB71A305EB600E16F5A /* HighscoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighscoreViewController.swift; sourceTree = "<group>"; };
+		4F4DBCB91A305EC200E16F5A /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		4F4DBCBD1A30639C00E16F5A /* QuestionVeiwController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionVeiwController.swift; sourceTree = "<group>"; };
+		982651481A33534A00F64B3A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		9826517F1A33618200F64B3A /* SwiftData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftData.swift; sourceTree = "<group>"; };
+		982651841A33685D00F64B3A /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		A29BD96A1A31173600F81572 /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
+		A29BD96B1A31173600F81572 /* incorrect_A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incorrect_A.png; sourceTree = "<group>"; };
+		A29BD96C1A31173600F81572 /* incorrect_B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incorrect_B.png; sourceTree = "<group>"; };
+		A29BD96D1A31173600F81572 /* incorrect_C.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incorrect_C.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				982651491A33534A00F64B3A /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +93,8 @@
 		4F4DBC851A3052AE00E16F5A = {
 			isa = PBXGroup;
 			children = (
+				982651841A33685D00F64B3A /* BridgingHeader.h */,
+				982651481A33534A00F64B3A /* libsqlite3.dylib */,
 				4F4DBC901A3052AE00E16F5A /* TabBar-Swift */,
 				4F4DBCA61A3052AE00E16F5A /* TabBar-SwiftTests */,
 				4F4DBC8F1A3052AE00E16F5A /* Products */,
@@ -77,8 +113,14 @@
 		4F4DBC901A3052AE00E16F5A /* TabBar-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				9826517F1A33618200F64B3A /* SwiftData.swift */,
+				A29BD9721A31173A00F81572 /* Resource */,
 				4F4DBC931A3052AE00E16F5A /* AppDelegate.swift */,
-				4F4DBC951A3052AE00E16F5A /* ViewController.swift */,
+				4F4DBCBD1A30639C00E16F5A /* QuestionVeiwController.swift */,
+				4F4DBC951A3052AE00E16F5A /* CategoryViewController.swift */,
+				4F4DBCB51A305EA200E16F5A /* SettingViewController.swift */,
+				4F4DBCB71A305EB600E16F5A /* HighscoreViewController.swift */,
+				4F4DBCB91A305EC200E16F5A /* AboutViewController.swift */,
 				4F4DBC971A3052AE00E16F5A /* Main.storyboard */,
 				4F4DBC9A1A3052AE00E16F5A /* Images.xcassets */,
 				4F4DBC9C1A3052AE00E16F5A /* LaunchScreen.xib */,
@@ -112,6 +154,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A29BD9721A31173A00F81572 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A29BD96A1A31173600F81572 /* correct.png */,
+				A29BD96B1A31173600F81572 /* incorrect_A.png */,
+				A29BD96C1A31173600F81572 /* incorrect_B.png */,
+				A29BD96D1A31173600F81572 /* incorrect_C.png */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,6 +175,7 @@
 				4F4DBC8A1A3052AE00E16F5A /* Sources */,
 				4F4DBC8B1A3052AE00E16F5A /* Frameworks */,
 				4F4DBC8C1A3052AE00E16F5A /* Resources */,
+				9826517D1A3357ED00F64B3A /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -192,8 +246,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A29BD96E1A31173600F81572 /* correct.png in Resources */,
+				A29BD96F1A31173600F81572 /* incorrect_A.png in Resources */,
 				4F4DBC991A3052AE00E16F5A /* Main.storyboard in Resources */,
 				4F4DBC9E1A3052AE00E16F5A /* LaunchScreen.xib in Resources */,
+				A29BD9711A31173600F81572 /* incorrect_C.png in Resources */,
+				A29BD9701A31173600F81572 /* incorrect_B.png in Resources */,
 				4F4DBC9B1A3052AE00E16F5A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,8 +270,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F4DBC961A3052AE00E16F5A /* ViewController.swift in Sources */,
+				4F4DBCB61A305EA200E16F5A /* SettingViewController.swift in Sources */,
+				4F4DBCBE1A30639C00E16F5A /* QuestionVeiwController.swift in Sources */,
+				4F4DBC961A3052AE00E16F5A /* CategoryViewController.swift in Sources */,
+				4F4DBCB81A305EB600E16F5A /* HighscoreViewController.swift in Sources */,
 				4F4DBC941A3052AE00E16F5A /* AppDelegate.swift in Sources */,
+				982651801A33618200F64B3A /* SwiftData.swift in Sources */,
+				4F4DBCBA1A305EC200E16F5A /* AboutViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,8 +400,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "TabBar-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = BridgingHeader.h;
 			};
 			name = Debug;
 		};
@@ -347,8 +412,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "TabBar-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = BridgingHeader.h;
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = BridgingHeader.h;
 			};
 			name = Release;
 		};
@@ -365,6 +433,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "TabBar-SwiftTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabBar-Swift.app/TabBar-Swift";
@@ -380,6 +449,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "TabBar-SwiftTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabBar-Swift.app/TabBar-Swift";
@@ -405,6 +475,7 @@
 				4F4DBCAF1A3052AE00E16F5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F4DBCB01A3052AE00E16F5A /* Build configuration list for PBXNativeTarget "TabBar-SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +484,7 @@
 				4F4DBCB21A3052AE00E16F5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
